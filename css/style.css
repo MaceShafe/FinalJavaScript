@@ -1,0 +1,23 @@
+html{
+    background-color: rgb(222, 228, 237);
+}
+
+
+
+body
+{
+    font-size: 3vw;
+    
+}
+
+@media screen and (min-width: 1000px) {
+    body {
+       font-size: 16px;
+    }
+  }
+  
+
+
+header {
+    background-color: rgb(211, 224, 255);
+}
