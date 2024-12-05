@@ -41,10 +41,12 @@ function showData() {
 
     taskList.forEach(function (element, index) {
         html += "<tr>";
-        html += "<td>" + element.taskStatus + "</td>";
-        html += "<td>" + element.taskName + "</td>";
-        html += "<td>" + element.taskDescription + "</td>";
-        html += '<button onclick="DeleteTask(' + index + ')" class="mb-3 mt-2 btn btn-danger">Delete</button> <button onclick="editTask(' + index + ')"  class=" mb-3 mx-2 mt-2 btn btn-secondary">Edit</button> </td>';
+            html += "<td>" + element.taskStatus + "</td>";
+            html += "<td>" + element.taskName + "</td>";
+            html += "<td>" + element.taskDescription + "</td>";
+            html += '<button onclick="DeleteTask(' + index + ')" class="mb-3 mt-2 btn btn-danger">Delete</button> <button onclick="editTask(' + index + ')"  class=" mb-3 mx-2 mt-2 btn btn-secondary">Edit</button> </td>';
+           
+
         html += "</tr>";
 
 
